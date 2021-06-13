@@ -37,7 +37,7 @@
 .download-cv {
   background-color: #303436;
   color: white;
-
+  text-decoration: none;
   padding-right: 25px;
   padding: 10px 20px 10px 20px;
   margin-top: 10px;
@@ -59,6 +59,8 @@
 }
 .download-cv:hover {
   background-color: #5ac24d;
+  text-decoration: none;
+  color: black;
 }
 .summary-skype-btn:hover {
   background-color: #5ac24d;

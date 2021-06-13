@@ -96,24 +96,13 @@
 .contact-email {
   padding-right: 10px;
 }
-.upwork-icon {
-  height: 45px;
-  width: 45px;
-  display: block;
-  background-color: #5ac24e !important;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  mask-image: url("../upwork.svg");
-}
+
 
 /* Seprator */
 
 .contact-seprator {
   padding-top: 40px;
+  padding-bottom: 30px;
   margin-left: 20px;
   display: flex;
 }
@@ -134,44 +123,54 @@
 
 /* Form Styling */
 
-.contact-form-grid {
-  margin-top: 40px;
-  background-color: #404347 !important;
-  border-radius: 20px !important;
-  padding: 50px;
-  background-color: #404347;
-  box-shadow: 0 20px 25px rgb(25, 25, 26);
+.form-container{
+padding-top: 60px;
+padding-left: 20px;
+width: 100%;
+box-shadow: 0 20px 25px #19191a;
+border-radius: 20px;
+
 }
 
-.email-input,
-.password-input {
-  background-color: #404347;
-  width: 94%;
-  margin-bottom: 20px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
-  height: 40px;
-  line-height: 40px;
-  outline: 0;
-  transition-duration: 0.2s;
+
+.form-name-field, .form-email-field,.form-text-field {
+
+border: none;
+color: white !important;
+background-color: transparent !important;
+border-bottom: 1px solid hsla(0,0%,100%,.05);
+
+
 }
 
-.form-text-area {
-  border: none;
-  background-color: #404347;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
-  transition-duration: 0.2s;
+.form-submit-btn{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    padding: 1rem 1rem;
+    font-size: 20px;  
+ 
 }
-.form-button {
-  margin-top: 30px;
-  color: white;
-}
-.form-button:hover {
-  margin-top: 30px;
+
+.form-submit-btn:hover{
   color: #5ac24e;
-  text-decoration: none;
 }
+
+.form-submit-complete{
+color:#5ac24e;
+align-items: center;
+padding-left: 20px;
+padding-right: 10px;
+margin-top: 16px;
+font-size: 20px;
+float: right !important;
+border: solid  #5ac24e 1px;
+
+}
+
+
 /* Lets talk */
 
 .live-chat-card {
@@ -195,7 +194,7 @@
 }
 
 .live-chat-container {
-  margin: 40px 0 0 30px;
+  margin: 5px 0 0 70px;
 }
 
 @media (max-width: 766px) {

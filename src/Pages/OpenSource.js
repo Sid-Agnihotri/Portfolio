@@ -47,15 +47,32 @@ function OpenSource() {
 
                 <p className="os-card-text">
                   Like IMDB for movies, we got Ignite for the games. Shows
-                  Upcoming, Popular & New Games. React, Redux, Rawg.io API,
-                  Axios, MaterialUI and much more.
+                  Upcoming, Popular & New Games. <br></br>
+                  <hr
+                    className="hr-line"
+                    style={{
+                      color: "#383C3E",
+                      backgroundColor: "#383C3E",
+                      height: 0.5,
+                    }}
+                  />
+                  Used: React, Redux, Rawg.io API, Axios, MaterialUI and much
+                  more.
                 </p>
+                <a
+                  href="https://github.com/Sid-Agnihotri/Ignite-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Git
+                </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Sid-Agnihotri"
+                  className="live-demo"
+                  href="https://ignite-4a52c.web.app/"
                 >
-                  Visit Git
+                  Live
                 </a>
               </div>
             </Card>
@@ -63,17 +80,35 @@ function OpenSource() {
           <Col lg={4} xs={12} className="os-col">
             <Card className="os-card-2 ">
               <div className="os-projects-text">
-                <h4 className="os-card-heading">Snappy</h4>
+                <h4 className="os-card-heading">COVID-19 Tracker</h4>
                 <p className="os-card-text">
-                  Captures full page screenshot of any website. Powered with
-                  Javascript & Google Chrome Headless API. Just a test.
+                  Web Application to provide live coverage of COVID-19 cases
+                  accross the globe.
+                  <hr
+                    className="hr-line"
+                    style={{
+                      color: "#383C3E",
+                      backgroundColor: "#383C3E",
+                      height: 0.5,
+                    }}
+                  />
+                  Used: React, Redux, WHO API, Axios, MaterialUI, ChartJS and
+                  much more.
                 </p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Sid-Agnihotri"
+                  href="https://github.com/Sid-Agnihotri/Covid-19-Tracker"
                 >
                   Visit Git
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="live-demo"
+                  href="https://covid-tracker-2019s.web.app/"
+                >
+                  Live
                 </a>
               </div>
             </Card>
@@ -104,3 +139,6 @@ function OpenSource() {
 }
 
 export default OpenSource;
+
+
+              

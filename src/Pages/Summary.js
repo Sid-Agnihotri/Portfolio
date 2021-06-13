@@ -1,5 +1,5 @@
 import React from "react";
-
+import pdf from "../documents/SidhantSharma-Dev.pdf"
 import "../styles/Summary.css";
 import { Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,10 +29,10 @@ function Summary() {
         <Col className="buttons">
           <div container xs={12}>
             <div item>
-              <button className="download-cv">
+              <a href={pdf} target="_blank" className="download-cv">
                 <i className="fas fa-angle-down"></i>
                 Download CV
-              </button>
+              </a>
               <button className="summary-linkedin-btn">
                 <a
                   href="https://www.linkedin.com/in/sidhant-sharma-21a79325/"
