@@ -1,47 +1,49 @@
+/** @format */
+
 .testimonial {
-  position: relative;
-  padding-top: 12vh;
+	position: relative;
+	padding-top: 12vh;
 }
 .testimonial-heading {
-  position: absolute;
-  overflow: hidden;
-  left: 10px;
-  width: 100%;
-  font-size: 120px;
-  line-height: 120px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-weight: 700 !important;
-  letter-spacing: 0.04em;
-  text-align: left;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0.05;
-  color: white;
+	position: absolute;
+	overflow: hidden;
+	left: 10px;
+	width: 100%;
+	font-size: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+	letter-spacing: 0.04em;
+	text-align: left;
+	white-space: nowrap;
+	pointer-events: none;
+	opacity: 0.05;
+	color: white;
 }
 
 .test-section-intro {
-  color: white;
-  font-weight: bold;
-  font-size: 35px;
-  padding-top: 9vh;
-  padding-left: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	padding-top: 9vh;
+	padding-left: 10px;
 }
 
 .test-reviews {
-  margin-left: 100px;
-  margin-top: 80px;
-  padding-bottom: 30px;
-  text-align: center;
+	/* margin-left: 100px; */
+	margin-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
 }
 
 .test-client-text {
-  text-align: center;
+	text-align: center;
 }
 
 @media (max-width: 766px) {
-  .testimonial-heading {
-    font-size: 60px;
-    padding-top: 10px;
-  }
+	.testimonial-heading {
+		font-size: 60px;
+		padding-top: 10px;
+	}
 }

@@ -3,7 +3,7 @@
 import React from "react";
 import Azure from "../images/azure.svg";
 import { Col, Row, Container, Card } from "react-bootstrap";
-import pdf from "../documents/Sidhant_Sharma_Dev.pdf";
+// import pdf from "../documents/Sidhant_Sharma_Dev.pdf";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Expertise.css";
 
@@ -33,7 +33,8 @@ const Expertise = () => {
 					<ul>
 						<li>
 							<a
-								href={pdf}
+								// href={pdf}
+								href=''
 								target='_blank'
 								className='expertise-download-resume'>
 								Download Resume
@@ -48,23 +49,23 @@ const Expertise = () => {
 					<Card className='expertise-card-1 '>
 						<div className='exp-job-container'>
 							<p className='exp-card-title'>CURRENT EMPLOYER</p>
-							<h3 className='exp-job-title'>Network/System Analyst</h3>
+							<h3 className='exp-job-title'>Full-Stack Developer</h3>
 							<ul>
 								<div className='expertise-job-link'>
-									<li>2018 - Present | </li>
+									<li>Feb 2022 - Present | </li>
 									<li>
 										&nbsp;
 										<a
 											target='_blank'
 											rel='noopener noreferrer'
-											href='https://www.tilray.com/'>
-											Tilray (Canada)
+											href='https://www.mymoneykarma.com/'>
+											MyMoneyKarma
 										</a>
 									</li>
 								</div>
 								<p className='exp-job-detail'>
-									Working with a creative team to ensure the smooth running
-									infrastructure of the world largest pharmaceutical company.
+									Working with the core development team to build India's most
+									trusted and highly effective financial tools.
 								</p>
 							</ul>
 						</div>
@@ -74,17 +75,22 @@ const Expertise = () => {
 							<h3 className='exp-job-title'>Front-End Developer</h3>
 							<ul>
 								<div className='expertise-job-link'>
-									<li>2014 - 2015 |</li>
+									<li>Aug 2020 - Feb 2022 |</li>
 									&nbsp;&nbsp;
 									<li>
-										<a className='indishine-container'>
-											Kodan Solutions(in) - Freelance
+										<a
+											target='_blank'
+											rel='noopener noreferrer'
+											href='https://gamexchange.app/'
+											className='indishine-container'>
+											GameXChange
 										</a>
 									</li>
 								</div>
 								<p className='exp-job-detail'>
-									Collaborating with a young team on the execution of ideas for
-									processing drone data on maps.
+									Collaborating with a young team on the execution of ideas
+									global gaming exchange for the movements of assets (NFT’s) and
+									in-game currency across the gaming ecosystem.
 								</p>
 							</ul>
 						</div>

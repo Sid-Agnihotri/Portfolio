@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import pdf from "../documents/Sidhant_Sharma_Dev.pdf";
+// import pdf from "../documents/Sidhant_Sharma_Dev.pdf";
 import "../styles/Summary.css";
 import { Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -31,7 +31,11 @@ function Summary() {
 				<Col className='buttons'>
 					<div container xs={12}>
 						<div item>
-							<a href={pdf} target='_blank' className='download-cv'>
+							<a
+								// href={pdf}
+								href=''
+								target='_blank'
+								className='download-cv'>
 								<i className='fas fa-angle-down'></i>
 								Download CV
 							</a>

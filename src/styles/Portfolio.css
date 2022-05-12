@@ -1,111 +1,113 @@
+/** @format */
+
 .portfolio {
-  padding-top: 70px;
+	padding-top: 70px;
 }
 .portfolio-section {
-  position: relative;
+	position: relative;
 }
 
 .portfolio-heading {
-  position: absolute;
-  overflow: hidden;
-  left: 10px;
-  width: 100%;
-  font-size: 120px;
-  line-height: 120px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-align: left;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0.05;
+	position: absolute;
+	overflow: hidden;
+	left: 10px;
+	width: 100%;
+	font-size: 120px;
+	line-height: 120px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-align: left;
+	white-space: nowrap;
+	pointer-events: none;
+	opacity: 0.05;
 }
 
 .portfolio-section-heading {
-  color: white;
-  font-weight: bold;
-  font-size: 35px;
-  padding-top: 80px;
-  padding-left: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	padding-top: 80px;
+	padding-left: 10px;
 }
 .portfolio-section-intro {
-  padding-left: 12px;
+	padding-left: 12px;
 }
 /* buttom */
 .p-lets-talk {
-  font-size: 20px;
-  color: white;
-  font-weight: 400;
-  cursor: pointer;
-  border: none;
+	font-size: 20px;
+	color: white;
+	font-weight: 400;
+	cursor: pointer;
+	border: none;
 }
 .p-lets-talk:hover {
-  color: #5ac24d;
+	color: #5ac24d;
 }
 /* Cards */
 .portfolio-card-container {
-  box-shadow: 0 20px 25px rgb(25, 25, 26);
+	box-shadow: 0 20px 25px rgb(25, 25, 26);
 
-  display: block;
-  padding: 0;
-  cursor: pointer;
-  margin: 10px 5%;
-  width: 96%;
-  background-position: top;
+	display: block;
+	padding: 0;
+	cursor: pointer;
+	margin: 10px;
+	width: 96%;
+	background-position: top;
 
-  background-size: cover;
-  height: 500px;
-  overflow: hidden;
-  position: relative;
-  border-radius: 10px;
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px;
 }
 .p-card-1 {
-  background-image: url(/src/images/ornaz.png);
+	background-image: url(/src/images/ornaz.png);
 }
 .p-card-2 {
-  background-image: url(/src/images/a1group.png);
+	background-image: url(/src/images/a1group.png);
 }
 .p-card-3 {
-  background-image: url(/src/images/indshine.png);
+	background-image: url(/src/images/indshine.png);
 }
 
 .p-holder {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .p-card-type {
-  font-size: 11px;
-  font-weight: 700;
-  padding: 6px 13px;
-  display: block;
-  width: auto;
-  color: #fff;
-  letter-spacing: 1px;
-  margin-left: 5px;
-  border-radius: 8px;
-  background-color: #3e4246;
-  text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 700;
+	padding: 6px 13px;
+	display: block;
+	width: auto;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-left: 5px;
+	border-radius: 8px;
+	background-color: #3e4246;
+	text-transform: uppercase;
 }
 .portfolio-card-item {
-  display: block;
-  cursor: pointer;
-  height: 450px;
-  width: 100%;
-  object-fit: cover;
-  background-size: cover;
-  border-radius: 15px;
+	display: block;
+	cursor: pointer;
+	height: 450px;
+	width: 100%;
+	object-fit: cover;
+	background-size: cover;
+	border-radius: 15px;
 }
 
 @media (max-width: 766px) {
-  .portfolio-heading {
-    font-size: 60px;
-    padding-top: 10px;
-  }
+	.portfolio-heading {
+		font-size: 60px;
+		padding-top: 10px;
+	}
 }
